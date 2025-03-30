@@ -4,10 +4,11 @@ Team Members:
   1. Rahul Doshi
   2. Nihar Patel
   3. Shailja Maheshwari
+     
 Project Overview:
   CareerIQ is an AI-powered assistant that helps professionals make smarter career decisions by analyzing compensation data, identifying market trends, and simulating future career moves — all through natural conversation. It simplifies salary comparisons, skill growth insights, and “what-if” scenario simulations into a user-friendly chat interface backed by powerful visualizations
 
-Problem It Solves:
+Problems It Solves:
   1. Understanding true market compensation benchmarks
   2. Identifying the highest-paying skill upgrades
   3. Comparing departments or roles for salary growth
