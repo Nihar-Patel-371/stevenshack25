@@ -1,6 +1,6 @@
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from personal_info_hidder import secure_data
 import matplotlib.pyplot as plt
 import numpy as np
@@ -9,7 +9,7 @@ import json
 import pandas as pd
 from PyPDF2 import PdfReader
 
-load_dotenv()
+# load_dotenv()
 
 from langchain_chroma import Chroma
 from langchain_community.vectorstores import Chroma
