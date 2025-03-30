@@ -11,7 +11,8 @@ My socials are 13348948, and I am currently living at 1234, 5th Avenue, New York
 I am pasting my resume below for your reference:
 
 '''
-def secure_data(text_to_anonymize):
+
+if __name__ == "__main__":
 
     # Initialize Presidio Analyzer and Anonymizer
     analyzer = AnalyzerEngine()
@@ -31,8 +32,7 @@ def secure_data(text_to_anonymize):
 
     def anonymize_text(text_to_anonymize):
         # Analyze text to identify PII entities
-        print(text_to_anonymize)
-        results = analyzer.analyze(text=text_to_anonymize, language="en") # entities=["PHONE_NUMBER", "ADDRESS", "US_SSN"], 
+        results = analyzer.analyze(text=text_to_anonymize, entities=["PHONE_NUMBER", "ADDRESS", "US_SSN"], language="en")
 
         # Define anonymization strategy (replace with placeholders)
         anonymizer_config = {
@@ -47,7 +47,6 @@ def secure_data(text_to_anonymize):
         return anonymized_text.text
 
     # Example usage
-    print(text_to_anonymize)
+    text_to_anonymize = "John's phone number is 555-273-4590 and his SSN is 123-45-6789. He lives at 123 Main St, New York."
     anonymized_text = anonymize_text(text_to_anonymize)
     print(anonymized_text)
-    return anonymized_text
