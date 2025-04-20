@@ -1,55 +1,92 @@
-Team: CareerIQ
+# CareerIQ - AI-Powered Career Assistant 🚀
 
-Members:
-1. Rahul Doshi
-2. Nihar Patel
-3. Shailja Maheshwari
+<img align="left" src="https://github.com/Nihar-Patel-371/stevenshack25/blob/main/logo_t.png" alt="logo" height="200">
 
-Steps to run:
-python -m venv venv (To create a virtual environment
-pip install -r requirements.txt
-streamlit run streamlit_ui.py
+**Team Members**:
+  - Rahul Doshi
+  - Nihar Patel
+  - Shailja Maheshwari
 
-Streamlit app will be running on  port 8501
+**Event**: Quackathon (Hackathon)
+
+**Video Demo**: [Watch Here](https://youtu.be/PzsEi_8EXxc)
 
 
-Description:
-Navigating career growth can be overwhelming, especially with ever-changing job markets, evolving skill demands, and varying compensation trends. We wanted to create a data-driven AI assistant that empowers users to make informed career decisions, explore opportunities, and visualize potential career paths with ease.
+## 🌟 Overview
 
-What it does
-CareerIQ is an interactive AI-powered career assistant that:
-Analyzes compensation trends based on industry and role.
-Provides data-driven career advice by simulating various career paths.
-Visualizes opportunities using dynamic charts and insights.
-Answers career-impacting questions with AI-powered analysis.
-Ensures privacy and security while handling sensitive career-related data.
+Navigating career growth can be overwhelming, especially with ever-changing job markets, evolving skill demands, and varying compensation trends. CareerIQ is a data-driven AI assistant that empowers users to make informed career decisions, explore opportunities, and visualize potential career paths with ease.
 
-How we built it
-Frontend: Developed using Streamlit for an intuitive and responsive UI.
-Backend: Using python, openAI, gpt-4o-mini, LangChain, Presedio
-Data Visualization: Implemented Plotly for interactive career simulations.
-APIs & Data Sources: Integrated job market data, salary benchmarks, and skill demand trends.
+## ✨ Features
 
-Challenges we ran into
-Handling large-scale career data while ensuring real-time responses.
-Optimizing AI-generated insights to provide reliable and actionable advice.
-Designing an intuitive user experience to make career exploration seamless.
-Ensuring data privacy while handling sensitive career-related information.
+- **Compensation Trend Analysis**: Get insights based on industry and role
+- **AI-Powered Career Advice**: Data-driven simulations of various career paths
+- **Interactive Visualizations**: Dynamic charts to explore opportunities
+- **Career Q&A**: Get answers to career-impacting questions with AI analysis
+- **Privacy-Focused**: Secure handling of sensitive career-related data
 
-Accomplishments that we're proud of
-Successfully built a functional AI career assistant in a limited time.
-Created engaging data visualizations that help users explore career options dynamically.
-Integrated real-world job market trends to offer relevant insights.
-Developed an interactive simulation tool for career progression analysis
+## 🛠️ Tech Stack
 
-## What we learned
-Integrating LLM, AI and RAG 
-Identifying PII for Security using NLP.
+**Frontend**:
+- Streamlit (Interactive UI)
 
-## What's next for CareerIQ
-Expanding data sources to include more job market and salary databases.
-Enhancing AI-driven recommendations with machine learning models.
-Developing a mobile-friendly version for seamless career exploration.
-Adding personalized career coaching features for tailored guidance.
+**Backend**:
+- Python
+- OpenAI (GPT-4)
+- LangChain
+- Presidio (PII detection)
 
-video link : https://drive.google.com/file/d/1d1D-jgrhFBPfb7RUIXbGg0ZXtlBqan84/view?usp=drive_link
+**Data Visualization**:
+- Plotly
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/CareerIQ.git
+   cd CareerIQ
+   ```
+
+2. **Set up virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application
+   ```bash
+   streamlit run streamlit_ui.py
+   ```
+
+### Challanges & Solutions
+   - Real-time Data Processing: Optimized backend to handle large-scale career data efficiently
+   - Reliable AI Insights: Fine-tuned prompts and implemented validation layers for actionable advice
+   - User Experience: Designed intuitive workflows for seamless career exploration
+   - Data Privacy: Implemented PII detection using NLP and Presidio
+
+### Accomplishments
+   - Built a functional AI career assistant within hackathon timeframe
+   - Created engaging, interactive data visualizations
+   - Integrated real-world job market trends for relevant insights
+   - Developed career progression simulation tool
+   - Implemented PII detection for security
+
+### What we learned
+   - Effective integration of LLMs with RAG (Retrieval-Augmented Generation)
+   - PII identification using NLP techniques
+   - Building responsive UIs with Streamlit
+   - Processing and visualizing complex career data
+  
+### 🤝 Contributing
+
+We welcome contributions! Please fork the repository and create a pull request with your improvements.
