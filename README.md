@@ -48,8 +48,7 @@ Navigating career growth can be overwhelming, especially with ever-changing job 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/CareerIQ.git
-   cd CareerIQ
+   git clone https://github.com/Nihar-Patel-371/stevenshack25
    ```
 
 2. **Set up virtual environment**
